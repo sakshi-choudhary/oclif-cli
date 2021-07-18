@@ -30,6 +30,7 @@ USAGE
 <!-- commands -->
 * [`cliop hello`](#cliop-hello)
 * [`cliop help [COMMAND]`](#cliop-help-command)
+* [`cliop life`](#cliop-life)
 * [`cliop sakshi`](#cliop-sakshi)
 
 ## `cliop hello`
@@ -67,13 +68,13 @@ OPTIONS
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.2/src/commands/help.ts)_
 
-## `cliop sakshi`
+## `cliop life`
 
 Describe the command here
 
 ```
 USAGE
-  $ cliop sakshi
+  $ cliop life
 
 OPTIONS
   -n, --name=name  name to print
@@ -81,6 +82,15 @@ OPTIONS
 DESCRIPTION
   ...
   Extra documentation goes here
+```
+
+_See code: [src/commands/life.js](https://github.com/sakshi-choudhary/oclif-cli/blob/v0.0.0/src/commands/life.js)_
+
+## `cliop sakshi`
+
+```
+USAGE
+  $ cliop sakshi
 ```
 
 _See code: [src/commands/sakshi.js](https://github.com/sakshi-choudhary/oclif-cli/blob/v0.0.0/src/commands/sakshi.js)_
