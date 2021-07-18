@@ -1,0 +1,43 @@
+{
+  "name": "mynewcli",
+  "description": "cli is fun",
+  "version": "0.0.0",
+  "author": "Sakshi @sakshi-choudhary",
+  "bin": {
+    "mynewcli": "./bin/run"
+  },
+  "bugs": "https://github.com/sakshi-choudhary/cli/issues",
+  "dependencies": {
+    "@oclif/command": "^1",
+    "@oclif/config": "^1",
+    "@oclif/plugin-help": "^3"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1",
+    "eslint": "^5.13",
+    "eslint-config-oclif": "^3.1"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/src"
+  ],
+  "homepage": "https://github.com/sakshi-choudhary/cli",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "bin": "mynewcli"
+  },
+  "repository": "sakshi-choudhary/cli",
+  "scripts": {
+    "posttest": "eslint .",
+    "prepack": "oclif-dev readme",
+    "test": "echo NO TESTS",
+    "version": "oclif-dev readme && git add README.md"
+  }
+}
