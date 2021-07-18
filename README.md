@@ -30,6 +30,7 @@ USAGE
 <!-- commands -->
 * [`cliop hello`](#cliop-hello)
 * [`cliop help [COMMAND]`](#cliop-help-command)
+* [`cliop sakshi`](#cliop-sakshi)
 
 ## `cliop hello`
 
@@ -44,7 +45,7 @@ OPTIONS
 
 DESCRIPTION
   ...
-  Extra documentation goes here
+  Says hello
 ```
 
 _See code: [src/commands/hello.js](https://github.com/sakshi-choudhary/oclif-cli/blob/v0.0.0/src/commands/hello.js)_
@@ -65,4 +66,22 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.2/src/commands/help.ts)_
+
+## `cliop sakshi`
+
+Describe the command here
+
+```
+USAGE
+  $ cliop sakshi
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/sakshi.js](https://github.com/sakshi-choudhary/oclif-cli/blob/v0.0.0/src/commands/sakshi.js)_
 <!-- commandsstop -->
