@@ -1,12 +1,12 @@
 {
-  "name": "cliop",
-  "description": "multi command cli",
+  "name": "mynewcli",
+  "description": "cli is fun",
   "version": "0.0.0",
   "author": "Sakshi @sakshi-choudhary",
   "bin": {
-    "cliop": "./bin/run"
+    "mynewcli": "./bin/run"
   },
-  "bugs": "https://github.com/sakshi-choudhary/oclif-cli/issues",
+  "bugs": "https://github.com/sakshi-choudhary/cli/issues",
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
@@ -15,36 +15,28 @@
   "devDependencies": {
     "@oclif/dev-cli": "^1",
     "eslint": "^5.13",
-    "eslint-config-oclif": "^3.1",
-    "globby": "^10"
+    "eslint-config-oclif": "^3.1"
   },
   "engines": {
     "node": ">=8.0.0"
   },
   "files": [
     "/bin",
-    "/npm-shrinkwrap.json",
-    "/oclif.manifest.json",
     "/src"
   ],
-  "homepage": "https://github.com/sakshi-choudhary/oclif-cli",
+  "homepage": "https://github.com/sakshi-choudhary/cli",
   "keywords": [
     "oclif"
   ],
   "license": "MIT",
   "main": "src/index.js",
   "oclif": {
-    "commands": "./src/commands",
-    "bin": "cliop",
-    "plugins": [
-      "@oclif/plugin-help"
-    ]
+    "bin": "mynewcli"
   },
-  "repository": "sakshi-choudhary/oclif-cli",
+  "repository": "sakshi-choudhary/cli",
   "scripts": {
-    "postpack": "rm -f oclif.manifest.json",
     "posttest": "eslint .",
-    "prepack": "oclif-dev manifest && oclif-dev readme",
+    "prepack": "oclif-dev readme",
     "test": "echo NO TESTS",
     "version": "oclif-dev readme && git add README.md"
   }
