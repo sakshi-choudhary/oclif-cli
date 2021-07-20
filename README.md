@@ -31,7 +31,8 @@ USAGE
 * [`cliop hello`](#cliop-hello)
 * [`cliop help [COMMAND]`](#cliop-help-command)
 * [`cliop life [FILE] [FILE]`](#cliop-life-file-file)
-* [`cliop nachos`](#cliop-nachos)
+* [`cliop nachos [FILE]`](#cliop-nachos-file)
+* [`cliop promptr`](#cliop-promptr)
 * [`cliop sakshi`](#cliop-sakshi)
 
 ## `cliop hello`
@@ -82,13 +83,27 @@ ARGUMENTS
 
 _See code: [src/commands/life.js](https://github.com/sakshi-choudhary/oclif-cli/blob/v0.0.0/src/commands/life.js)_
 
-## `cliop nachos`
+## `cliop nachos [FILE]`
+
+this is nachos command description
+
+```
+USAGE
+  $ cliop nachos [FILE]
+
+ARGUMENTS
+  FILE  [default: is good] output file
+```
+
+_See code: [src/commands/nachos.js](https://github.com/sakshi-choudhary/oclif-cli/blob/v0.0.0/src/commands/nachos.js)_
+
+## `cliop promptr`
 
 Describe the command here
 
 ```
 USAGE
-  $ cliop nachos
+  $ cliop promptr
 
 OPTIONS
   -n, --name=name  name to print
@@ -98,7 +113,7 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/nachos.js](https://github.com/sakshi-choudhary/oclif-cli/blob/v0.0.0/src/commands/nachos.js)_
+_See code: [src/commands/promptr.js](https://github.com/sakshi-choudhary/oclif-cli/blob/v0.0.0/src/commands/promptr.js)_
 
 ## `cliop sakshi`
 
