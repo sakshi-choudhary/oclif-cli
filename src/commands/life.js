@@ -7,8 +7,8 @@ class lifeCommand extends Command {
       required: false, // make the arg required with `required: true`
       description: "output file", // help description
       hidden: false, // hide this arg from help
-      parse: (input) => input.length, // instead of the user input, return a different value
-      default: "hi", // default value if no arg input
+      parse: (input) => input, // instead of the user input, return a different value
+      default: "is good", // default value if no arg input
       //options: ["a", "b"], // only allow input to be from a discrete set
     },
     {
@@ -18,19 +18,27 @@ class lifeCommand extends Command {
       hidden: false, // hide this arg from help
       //parse: input => 'output',   // instead of the user input, return a different value
       default: "is shit", // default value if no arg input
-      options: ["a", "b"], // only allow input to be from a discrete set
+      //options: ["a", "b"], // only allow input to be from a discrete set
     },
   ];
 
   async run() {
+    const details = {
+      age: "20",
+      surname: "choudhary",
+    };
     // can get args as an object
     // const { args } = this.parse(MyCLI);
     // console.log(
     //   `running my command with args: ${args.firstArg}, ${args.secondArg}`
     // );
     // can also get the args as an array
+
     const { argv } = this.parse(lifeCommand);
-    console.log(`${argv[0]}, ${argv[1]}`);
+    // if (input === "age") {
+    //   console.log(details.age);
+    // }
+    console.log(`${argv[0]}`);
   }
 }
 

@@ -30,7 +30,8 @@ USAGE
 <!-- commands -->
 * [`cliop hello`](#cliop-hello)
 * [`cliop help [COMMAND]`](#cliop-help-command)
-* [`cliop life`](#cliop-life)
+* [`cliop life [FILE] [FILE]`](#cliop-life-file-file)
+* [`cliop nachos`](#cliop-nachos)
 * [`cliop sakshi`](#cliop-sakshi)
 
 ## `cliop hello`
@@ -68,13 +69,26 @@ OPTIONS
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.2/src/commands/help.ts)_
 
-## `cliop life`
+## `cliop life [FILE] [FILE]`
+
+```
+USAGE
+  $ cliop life [FILE] [FILE]
+
+ARGUMENTS
+  FILE  [default: is good] output file
+  FILE  [default: is shit] output file
+```
+
+_See code: [src/commands/life.js](https://github.com/sakshi-choudhary/oclif-cli/blob/v0.0.0/src/commands/life.js)_
+
+## `cliop nachos`
 
 Describe the command here
 
 ```
 USAGE
-  $ cliop life
+  $ cliop nachos
 
 OPTIONS
   -n, --name=name  name to print
@@ -84,7 +98,7 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/life.js](https://github.com/sakshi-choudhary/oclif-cli/blob/v0.0.0/src/commands/life.js)_
+_See code: [src/commands/nachos.js](https://github.com/sakshi-choudhary/oclif-cli/blob/v0.0.0/src/commands/nachos.js)_
 
 ## `cliop sakshi`
 
