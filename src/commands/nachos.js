@@ -1,4 +1,5 @@
 const { Command } = require("@oclif/command");
+const { cli } = require("cli-ux");
 
 class nachosCommand extends Command {
   static args = [
@@ -14,6 +15,8 @@ class nachosCommand extends Command {
   ];
   async run() {
     const { argv } = this.parse(nachosCommand);
+    const name = await cli.prompt("What nachos do you want?");
+
     const nachos = [
       {
         name: "abc1",
@@ -28,7 +31,9 @@ class nachosCommand extends Command {
         price: "30",
       },
     ];
-    this.log("Choose nachos", `${argv[0]}`);
+
+    const price = nachos.find((p) => p.name === name).price;
+    this.log("Pay Rs.", `${price}`);
   }
 }
 nachosCommand.description = "this is nachos command description";
