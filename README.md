@@ -31,9 +31,10 @@ USAGE
 * [`cliop hello`](#cliop-hello)
 * [`cliop help [COMMAND]`](#cliop-help-command)
 * [`cliop life [FILE] [FILE]`](#cliop-life-file-file)
-* [`cliop nachos [FILE]`](#cliop-nachos-file)
+* [`cliop nachos`](#cliop-nachos)
 * [`cliop promptr`](#cliop-promptr)
 * [`cliop sakshi`](#cliop-sakshi)
+* [`cliop spin`](#cliop-spin)
 
 ## `cliop hello`
 
@@ -83,34 +84,27 @@ ARGUMENTS
 
 _See code: [src/commands/life.js](https://github.com/sakshi-choudhary/oclif-cli/blob/v0.0.0/src/commands/life.js)_
 
-## `cliop nachos [FILE]`
+## `cliop nachos`
 
 this is nachos command description
 
 ```
 USAGE
-  $ cliop nachos [FILE]
+  $ cliop nachos
 
-ARGUMENTS
-  FILE  [default: is good] output file
+OPTIONS
+  --nachos=peri peri|butter|pickle
 ```
 
 _See code: [src/commands/nachos.js](https://github.com/sakshi-choudhary/oclif-cli/blob/v0.0.0/src/commands/nachos.js)_
 
 ## `cliop promptr`
 
-Describe the command here
+this command takes user inputs like a typeform
 
 ```
 USAGE
   $ cliop promptr
-
-OPTIONS
-  -n, --name=name  name to print
-
-DESCRIPTION
-  ...
-  Extra documentation goes here
 ```
 
 _See code: [src/commands/promptr.js](https://github.com/sakshi-choudhary/oclif-cli/blob/v0.0.0/src/commands/promptr.js)_
@@ -123,4 +117,22 @@ USAGE
 ```
 
 _See code: [src/commands/sakshi.js](https://github.com/sakshi-choudhary/oclif-cli/blob/v0.0.0/src/commands/sakshi.js)_
+
+## `cliop spin`
+
+Describe the command here
+
+```
+USAGE
+  $ cliop spin
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/spin.js](https://github.com/sakshi-choudhary/oclif-cli/blob/v0.0.0/src/commands/spin.js)_
 <!-- commandsstop -->
