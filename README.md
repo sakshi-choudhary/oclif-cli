@@ -1,19 +1,23 @@
-cliop
-=====
+# cliop
 
-multi command cli
+I &hearts; CLI now !!
+Oclif is amazinggg
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/cliop.svg)](https://npmjs.org/package/cliop)
-[![Downloads/week](https://img.shields.io/npm/dw/cliop.svg)](https://npmjs.org/package/cliop)
-[![License](https://img.shields.io/npm/l/cliop.svg)](https://github.com/sakshi-choudhary/oclif-cli/blob/master/package.json)
+[![Version](https://img.shields.io/npm/v/mynewcli.svg)](https://npmjs.org/package/mynewcli)
+[![Downloads/week](https://img.shields.io/npm/dw/mynewcli.svg)](https://npmjs.org/package/mynewcli)
+[![License](https://img.shields.io/npm/l/mynewcli.svg)](https://github.com/sakshi-choudhary/cli/blob/master/package.json)
 
 <!-- toc -->
-* [Usage](#usage)
-* [Commands](#commands)
+
+- [Usage](#usage)
+- [Commands](#commands)
 <!-- tocstop -->
+
 # Usage
+
 <!-- usage -->
+
 ```sh-session
 $ npm install -g cliop
 $ cliop COMMAND
@@ -25,16 +29,21 @@ USAGE
   $ cliop COMMAND
 ...
 ```
+
 <!-- usagestop -->
+
 # Commands
+
 <!-- commands -->
-* [`cliop hello`](#cliop-hello)
-* [`cliop help [COMMAND]`](#cliop-help-command)
-* [`cliop life [FILE] [FILE]`](#cliop-life-file-file)
-* [`cliop nachos`](#cliop-nachos)
-* [`cliop promptr`](#cliop-promptr)
-* [`cliop sakshi`](#cliop-sakshi)
-* [`cliop spin`](#cliop-spin)
+
+- [`cliop hello`](#cliop-hello)
+- [`cliop help [COMMAND]`](#cliop-help-command)
+- [`cliop life [FILE] [FILE]`](#cliop-life-file-file)
+- [`cliop nachos`](#cliop-nachos)
+- [`cliop notify`](#cliop-notify)
+- [`cliop promptr`](#cliop-promptr)
+- [`cliop sakshi`](#cliop-sakshi)
+- [`cliop spin`](#cliop-spin)
 
 ## `cliop hello`
 
@@ -98,6 +107,24 @@ OPTIONS
 
 _See code: [src/commands/nachos.js](https://github.com/sakshi-choudhary/oclif-cli/blob/v0.0.0/src/commands/nachos.js)_
 
+## `cliop notify`
+
+Describe the command here
+
+```
+USAGE
+  $ cliop notify
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/notify.js](https://github.com/sakshi-choudhary/oclif-cli/blob/v0.0.0/src/commands/notify.js)_
+
 ## `cliop promptr`
 
 this command takes user inputs like a typeform
@@ -120,19 +147,13 @@ _See code: [src/commands/sakshi.js](https://github.com/sakshi-choudhary/oclif-cl
 
 ## `cliop spin`
 
-Describe the command here
+this command takes shows spinner
 
 ```
 USAGE
   $ cliop spin
-
-OPTIONS
-  -n, --name=name  name to print
-
-DESCRIPTION
-  ...
-  Extra documentation goes here
 ```
 
 _See code: [src/commands/spin.js](https://github.com/sakshi-choudhary/oclif-cli/blob/v0.0.0/src/commands/spin.js)_
+
 <!-- commandsstop -->
